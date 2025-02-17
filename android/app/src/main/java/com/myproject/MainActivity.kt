@@ -1,4 +1,4 @@
-package com.header_enrich
+package com.MyProject
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate
