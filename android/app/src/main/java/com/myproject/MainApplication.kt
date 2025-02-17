@@ -1,4 +1,4 @@
-package com.myproject
+package com.header_enrich
 
 import android.app.Application
 import com.facebook.react.PackageList
