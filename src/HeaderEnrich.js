@@ -19,11 +19,12 @@ const HeaderEnrichment = () => {
 
     try {
       // Make the API request to your backend
-      const response = await axios.get('http://192.168.139.107:3000/api/get-mobile-number', {
+      const response = await axios.get('https://myproject.onrender.com/api/get-mobile-number', {
         // headers: {
         //   'x-msisdn': '+919867275944', // Simulate the MSISDN header from the carrier (example)
         // },
       });
+      console.log("@@@@@@@@@@@@@@@@@@@@@@@98899999999999",response)
 
       // Store the mobile number fetched from backend
       setMobileNumber(response.data.phone);
